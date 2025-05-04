@@ -1,3 +1,4 @@
 azure-data-tables==12.6.0
 fastapi==0.115.12
 uvicorn==0.23.2
+aiohttp==3.11.18

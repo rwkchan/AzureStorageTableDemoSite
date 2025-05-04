@@ -17,6 +17,7 @@ class Job(BaseModel):
 
 # Azure Storage Table connection string
 connection_string = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
+#print("Connection string: ", connection_string)
 
 @app.get("/")
 def read_root():
